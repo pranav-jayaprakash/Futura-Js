@@ -19,3 +19,11 @@
 // console.log(area)
 
 
+// Progarm to find the area of the rectangle
+
+// var a = prompt('Enter the length: ');
+// var b = prompt('Enter the breadth: ');
+
+// var area = Number(a)*Number(b)
+
+// console.log(area)
