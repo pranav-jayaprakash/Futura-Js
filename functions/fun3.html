@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <input type="text" id="n1">
+    <input type="text" id="n2">
+    <input type="button" onclick="adder()" value="add">
+    <input type="button" onclick="sub()" value="sub">
+    <input type="button" onclick="mul()" value="multiple">
+    <input type="button" onclick="div()" value="division">
+
+    <script>
+
+        function adder()
+
+        {
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+
+            document.write(a+b);
+
+        }
+
+        function sub()
+
+        {
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+
+            document.write(a-b);
+
+        }
+
+        function mul()
+
+        {
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+
+            document.write(a*b);
+
+        }
+
+        function div()
+
+        {
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+
+            document.write(a/b);
+
+        }
+    </script>
+</body>
+</html>
